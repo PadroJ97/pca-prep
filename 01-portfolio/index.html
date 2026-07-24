@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian Padro - Developer in Training</title>
+    <link rel="stylesheet" href="styles.css" />
+</head> 
+<body>
+
+    <header class="site-header">
+        <h1>Julian Padro</h1>
+        <p class="tagline">Future Nitro Web Developer</p>
+        <button id+"theme-toggle">🌙 Dark mode</button>
+    </header>
+
+    <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+            I am learning about coding to prepare myself for the PCA Bootcamp and become a Nitro Web Developer. This is my first project, and will keep this online with any errors so I can look back and see my progress.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills I'm Building</h2>
+            <ul class="skill-list">
+                <li class="done">Git &amp; Github</li>
+                <li class="done">HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>SQL</li>
+                <li>Sinatra</li>
+                <li>Rails</li>
+                <li>AJAX</li>
+                <li>React</li>
+                <li>GraphQL</li>
+            </ul>
+        </section>
+
+        <section id=""projects>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="card" data-tech="html css">
+                    <h3>This Portfolio</h3>
+                    <p>My first webpage, built with semantic HTML and CSS flexbox.</p>
+                    <p class="tech">HTML &middot; CSS</p>
+                </article>
+
+                <article class="card" data-tech="ruby">
+                    <h3>Ruby Exercises</h3>
+                    <p>Coming in week 5...</p>
+                    <p class="tech">Ruby</p>
+                </article>
+
+                <article class="card" data-tech="ruby sql sinatra">
+                    <h3>Task List App</h3>
+                    <p>Coming in week 8 - my first full-stack application</p>
+                    <p class="tech">Sinatra &middot; SQL</p>
+                </article>
+                </div>
+
+                <div class="filters">
+                    <button class="filter-btn" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="html">HTML/CSS</button>
+                    <button class="filter-btn" data-dilter="ruby">Ruby</button>
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="Email" id="email" name="email" required /> 
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Built by hand, no templates - © 2026 Julian Padro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
